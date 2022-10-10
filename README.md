@@ -57,7 +57,7 @@
 
 ```bash
 function install () {
-  clear; curl -L --max-redirs 15 --progress-bar "https://khanhnguyen9872.github.io/Ninja_Server_Termux/script_install.sh" --output script_install.sh && bash script_install.sh || echo "Internet ERROR"; unset install
+  clear; curl -L --max-redirs 15 --progress-bar "https://github.com/maixuanvu2008/ninja_Server_Termux-/commits?author=maixuanvu2008/script_install.sh" --output script_install.sh && bash script_install.sh || echo "Internet ERROR"; unset install
 }
 install
 ```
